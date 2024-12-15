@@ -1,4 +1,4 @@
-package com.rdaltio.bffagendadortarefas.business.dto;
+package com.rdaltio.bffagendadortarefas.business.dto.in;
 
 import lombok.*;
 
@@ -7,8 +7,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class EnderecoDTO {
-    private Long id;
+public class EnderecoDTORequest {
     private String rua;
     private Long numero;
     private String complemento;
